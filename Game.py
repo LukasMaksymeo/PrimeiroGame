@@ -1,3 +1,4 @@
+import Crit
 classe=("Barbaro","Paladino","Assasino")
 print("      Olá Jogador!!!      \n"
       "    Escolha sua classe    \n"
