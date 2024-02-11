@@ -8,10 +8,10 @@
 
 
 ### Classes
-- Herói:
-Ganha a batalha após desabilitar um inimigo 
-ou deixá-lo com 3 de HP ou menos, ao matar 
-inimigos seu ataque e defesa decaem em 1
+- Herói:\n
+Ganha a batalha após desabilitar um inimigo\n 
+ou deixá-lo com 3 de HP ou menos, ao matar\n 
+inimigos seu ataque e defesa decaem em 1\n
 
 - Berserk (Item para barbaro ou outra futura classe):
 Com os efeitos da armadura ativado dobra seu 
