@@ -1,3 +1,4 @@
+import Crit
 classe=("Barbaro","Paladino","Assasino")
 print("      Olá Jogador!!!      \n"
       "    Escolha sua classe    \n"
@@ -25,14 +26,15 @@ else:
     print("erro")    
 print("hora da batalha ")
 inimigo = "goblin"
-vida_Inimigo = 13
-atq_Inimigo = 2 
+vida_Inimigo = 30
+atq_Inimigo = 4
 while(vida > 0 and vida_Inimigo > 0): ### fase de batalha, transformar em uma função ###
     print(inimigo, "atacou você")
     vida = vida - atq_Inimigo
     print("você ataca")
-    vida_Inimigo = vida_Inimigo - ataque
-    if (vida == 0):
+    Atq_Crit = Crit.Critico(Crit_chance, ataque)
+    vida_Inimigo = vida_Inimigo - (ataque + Atq_Crit)
+    if (vida <= 0):
         print("você morreu!")
-    else:
+    elif (vida_Inimigo <= 0):
         print("você ganhou")
