@@ -1,14 +1,14 @@
-# Idéias 
+# Ideias 
 
-#### Criar conceitos de arte em pixel art
-#### Criar Funções para as Classes
-#### Adicionar os efeitos sonoros e as musicas 
-#### Adicionar Lowercase na identificação textual do input para melhor funcionamento
-#### Ver como criar um hud(tela/Visor) para o jogo 
-#### Adicionar Lowercase para reconehcimento da maquina
-#### Adicionar reconhecimento de txt, para não ter avanços sem escolher classe
-#### futuramente definir melhor as classes (exemplo: opcao == barbaro, classe (barbaro de elite, berserk), fazendo assim com que tenha diversidade de classes no futuro)
-#### preciso fazer uma formatação perfeita sobre as str para não haver erro, comandos para usar isalpha(), isnumeric(), casefold(),
+- #### Criar conceitos de arte em pixel art
+- #### Criar Funções para as Classes
+- #### Adicionar os efeitos sonoros e as musicas 
+- #### Adicionar Lowercase na identificação textual do input para melhor funcionamento
+- #### Ver como criar um hud(tela/Visor) para o jogo 
+- #### Adicionar Lowercase para reconehcimento da maquina
+- #### Adicionar reconhecimento de txt, para não ter avanços sem escolher classe
+- #### futuramente definir melhor as classes (exemplo: opcao == barbaro, classe (barbaro de elite, berserk), fazendo assim com que tenha diversidade de classes no futuro)
+- #### preciso fazer uma formatação perfeita sobre as str para não haver erro, comandos para usar isalpha(), isnumeric(), casefold(),
 
 
 ### Classes
