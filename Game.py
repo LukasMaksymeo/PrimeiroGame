@@ -1,7 +1,14 @@
 import Crit
+import pygame
+import os
+
+pygame.init()
+pygame.mixer.music.load('PrimeiroGame/Rememberthat.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
 classe=("Barbaro","Paladino","Assasino")
-print("      Olá Jogador!!!      \n"
-      "    Escolha sua classe    \n"
+print("           Olá Jogador!!!           \n"
+      "         Escolha sua classe         \n"
       "", classe, "")
 opcao = (input())
 if (opcao == "barbaro"):

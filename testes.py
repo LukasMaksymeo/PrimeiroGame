@@ -13,3 +13,6 @@ while(vida > 0 and vida_Inimigo > 0): ### fase de batalha, transformar em uma fu
     Atq_Crit = Crit.Critico(Crit_chance, ataque)
     vida_Inimigo = vida_Inimigo - (ataque + Atq_Crit)
     print(Atq_Crit, ataque)
+###-------------------------------------------------------------------------------------
+import os           ### comando para limpar o terminal, caso precise
+os.system('clear') or None
