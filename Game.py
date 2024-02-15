@@ -1,7 +1,5 @@
 import Crit
 import pygame
-import os
-
 pygame.init()
 pygame.mixer.music.load('PrimeiroGame/Rememberthat.mp3')
 pygame.mixer.music.play()
