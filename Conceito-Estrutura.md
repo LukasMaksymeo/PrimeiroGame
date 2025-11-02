@@ -11,6 +11,12 @@
 - #### preciso fazer uma formatação perfeita sobre as str para não haver erro, comandos para usar isalpha(), isnumeric(), casefold(),
 
 
+
+-----------------------------------------
+# Funcionalidades
+- Organizar as funções em seus devidos locais.
+-----------------------------------------
+
 ### Classes
 - Herói:
 

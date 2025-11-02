@@ -1,36 +1,18 @@
 import Crit
 import pygame
+import Classes
 pygame.init()
-import os          
+import os
 os.system('clear') or None
-pygame.mixer.music.load('PrimeiroGame/Rememberthat.mp3')
+pygame.mixer.music.load('Rememberthat.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
-classe=("Barbaro","Paladino","Assasino")
 print("           Olá Jogador!!!           \n"
       "         Escolha sua classe         \n"
-      "", classe, "")
-opcao = (input())
-if (opcao == "barbaro"):
-    print("teste barbaro funcionou")
-    vida = 30
-    ataque = 5
-    Crit_chance = [1]
-    Atq_Crit = 0
-elif (opcao == "paladino"):
-    print("teste paladino funcionou")
-    vida = 50
-    ataque = 3
-    Crit_chance = [1]
-    Atq_Crit = 0    
-elif (opcao == "assasino"):
-    print("teste assasino funcionou")
-    vida = 20
-    ataque = 6
-    Crit_chance = [1,2,3]
-    Atq_Crit = 0
-else:
-    print("erro")    
+      "", Classes.classe, "")
+# chama a função "escolha_de_classe" do bloco de Classes e atribui seus respectivos valores
+vida, ataque, Crit_chance, Atq_Crit = Classes.escolha_de_classe(input())
+
 print("hora da batalha ")
 inimigo = "goblin"
 vida_Inimigo = 30
