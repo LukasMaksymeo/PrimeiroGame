@@ -1,5 +1,5 @@
 import random
-def Critico(Crit_chance, ataque):
+def critico(Crit_chance, ataque):
     Tentativa = [1,2,3,4,5,6,7,8,9,0]
     chances = random.choice(Tentativa)
     if(chances in Crit_chance):
