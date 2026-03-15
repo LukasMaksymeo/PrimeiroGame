@@ -30,3 +30,6 @@ Com os efeitos da armadura ativado dobra seu
 ataque mas zera sua defesa, ao perder todo 
 seu HP ganha um bônus de sobrevida (20 HP) 
 enquanto estiver sobre efeito da armadura
+
+-------------------------------------------
+Observação: As classes de Personagens agora estão instanciadas em forma de POO
