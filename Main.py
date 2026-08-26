@@ -8,8 +8,10 @@ pygame.mixer.music.load('Rememberthat.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
 print("           Olá Jogador!!!           \n"
-      "         Escolha sua classe         \n"
-      "", Classes.classe, "")
+      "         Escolha sua classe         \n")
 # chama a função "escolha_de_classe" do bloco de Classes e atribui seus respectivos valores
-vida, ataque, Crit_chance, Atq_Crit = Classes.escolhaDeClasse(input())
 
+
+teste = Classes.Paladino()
+
+print(teste)

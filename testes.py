@@ -1,38 +1,38 @@
-def teste_vida(palavra_chave):
-    a_valor = 20
-    a_dano = 7
-    b_valor = 30
-    b_dano = 5
-    c_valor = 50
-    c_dano = 2
-    if palavra_chave == "a":
-        return a_valor, a_dano
-    elif palavra_chave == "b":
-        return b_valor, b_dano
-    elif palavra_chave == "c":
-        return c_valor, c_dano
-    else:
-        print("erro")
+# def teste_vida(palavra_chave):
+#     a_valor = 20
+#     a_dano = 7
+#     b_valor = 30
+#     b_dano = 5
+#     c_valor = 50
+#     c_dano = 2
+#     if palavra_chave == "a":
+#         return a_valor, a_dano
+#     elif palavra_chave == "b":
+#         return b_valor, b_dano
+#     elif palavra_chave == "c":
+#         return c_valor, c_dano
+#     else:
+#         print("erro")
 
-print("escolha entre a, b ou c")
-vida, dano = teste_vida(input())
+# print("escolha entre a, b ou c")
+# vida, dano = teste_vida(input())
 
-print("sua vida tem valor igual a: ",vida, "\nseu dano tem valor de: ", dano)
+# print("sua vida tem valor igual a: ",vida, "\nseu dano tem valor de: ", dano)
 
 # import Crit   ###import de um conteudo dentro de outro arquivo na mesma pasta
 # vida = 20                   #      vez do jogador
 # ataque = 2                  #
 # Crit_chance = [1,2]       #
 # Atq_Crit = 0
-#
-#
-#
+
+
+
 # ###---------------------------------------------------------------------------
 # inimigo = "goblin"          #       vez do pc
 # vida_Inimigo = 10           #            #
-#
-#
-#
+
+
+
 # ###---------------------------------------------------------------------------
 # while(vida > 0 and vida_Inimigo > 0): ### fase de batalha, transformar em uma função ###
 #     print(inimigo, "atacou você")
@@ -40,9 +40,9 @@ print("sua vida tem valor igual a: ",vida, "\nseu dano tem valor de: ", dano)
 #     Atq_Crit = Crit.Critico(Crit_chance, ataque)
 #     vida_Inimigo = vida_Inimigo - (ataque + Atq_Crit)
 #     print(Atq_Crit, ataque)
-#
-#
-#
+
+
+
 # ###----------------------------------------------------------------------------
 # import os           ### comando para limpar o terminal, caso precise
 # os.system('clear') or None
@@ -52,10 +52,10 @@ print("sua vida tem valor igual a: ",vida, "\nseu dano tem valor de: ", dano)
 # from tkinter import* ### Doc que Traz as telas
 # janela = Tk()               ### não está funcionando
 # janela.mainloop()
-#
-#
-#
-###----------------------------------------------------------------------------
+
+
+
+# ##----------------------------------------------------------------------------
 # def teste_vida(palavra_chave):
 #     a_valor = 20
 #     b_valor = 30
@@ -68,9 +68,33 @@ print("sua vida tem valor igual a: ",vida, "\nseu dano tem valor de: ", dano)
 #         return c_valor
 #     else:
 #         print("erro")
-#
+
 # print("escolha entre a, b ou c")
 # vida = teste_vida(input())
-#
+
 # print("sua vida tem valor igual a: ",vida)
-#------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------
+# classe=("Barbaro","Paladino","Assasino")
+#
+# def escolhaDeClasse(opcao):
+#     if (opcao == "barbaro"):
+#         print("teste barbaro funcionou")
+#         vida = 35
+#         ataque = 7
+#         Crit_chance = [0]
+#         Atq_Crit = 0
+#         return vida, ataque, Crit_chance, Atq_Crit ## VER UMA MELHOR FORMA DE LOCALIZAR O ATQ_CRIT
+#     elif (opcao == "paladino"):
+#         print("teste paladino funcionou")
+#         vida = 50
+#         ataque = 3
+#         Crit_chance = [1]
+#         Atq_Crit = 0
+#         return vida, ataque, Crit_chance, Atq_Crit
+#     elif (opcao == "assasino"):
+#         print("teste assasino funcionou")
+#         vida = 20
+#         ataque = 6
+#         Crit_chance = [1,2,3]
+#         Atq_Crit = 0
+#         return vida, ataque, Crit_chance, Atq_Crit
